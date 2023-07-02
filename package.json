@@ -1,0 +1,29 @@
+{
+	"name": "dlx-command-add-featured-image",
+	"version": "1.0.0",
+	"description": "Demonstrates adding a new command to the WordPress command palette.",
+	"scripts": {
+		"start": "wp-scripts start --env mode=development",
+		"dev": "wp-scripts start --env mode=development",
+		"build": "wp-scripts build --env mode=production"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dlxplugins/dlx-command-add-featured-image/"
+	},
+	"author": "Ronald Huereca",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/dlxplugins/dlx-command-add-featured-image/"
+	},
+	"homepage": "https://dlxplugins.com/plugins/dlx-command-add-featured-image/",
+	"devDependencies": {
+		"@wordpress/commands": "^0.7.0",
+		"@wordpress/components": "^25.2.0",
+		"@wordpress/element": "^5.13.0",
+		"@wordpress/icons": "^9.27.0",
+		"@wordpress/plugins": "^6.4.0",
+		"@wordpress/scripts": "^26.7.0"
+	},
+	"dependencies": {}
+}
